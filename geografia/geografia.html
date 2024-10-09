@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>educa</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="geografia.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="superior">
+        <div class="cima">
+            <div class="logo">
+                <img src="EDUCA+ (1).png" alt="educa">
+            </div>
+
+            <div class="buscar-box">
+                <div class="lupa-buscar">
+                    <i class="bi bi-search"></i>
+                </div>
+
+                <div class="input-buscar">
+                    <input type="text" id="pesquisa" placeholder="qual a matéria?" onkeyup="handleEnter(event)">
+                </div>
+
+                <div class="btn-fechar">
+                    <i class="bi bi-x-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="baixo"></div>
+    </div>
+
+    <div class="texto">
+        <a href="../math/matemática.html" >Matemática</a>
+        <a href="../história/história.html" >História</a>
+        <a href="../geografia/geografia.html">Geografia</a>
+        <a href="../Física/Física.html">Física</a>
+        <a href="../português/português.html">Português</a>
+    </div>
+
+    <div class="fundo"></div>
+
+    <fieldset>
+        <nav class="math01">
+            <div class="item" data-name="circunferencia">
+                <a href="https://www.todamateria.com.br/circunferencia/"><h2>Clima </h2></a>
+            </div>
+            <div class="item" data-name="função">
+                <a href="../função/fun.html"><h2>Relevo Terrestre:</h2></a>
+            </div>
+            <div class="item" data-name="logaritmo">
+                <a href="https://www.todamateria.com.br/logaritmo/"><h2>Rocha</h2></a>
+            </div>
+            <div class="item" data-name="equacao">
+                <a href="https://www.todamateria.com.br/equacao-do-primeiro-grau/"><h2>Cartografia</h2></a>
+            </div>
+        </nav>
+    </fieldset>
+
+    <script src="geografia.js"></script>
+</body>
+</html>
