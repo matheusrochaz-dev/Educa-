@@ -111,3 +111,37 @@ a:hover::after {
 a:hover::after{
     width: 100%;
 }
+
+.fundo {
+    background-color: rgba(82, 55, 204, 0.733);
+    height: 600px;
+    width: 100%;
+    margin-top: calc(17px - 167px);
+
+}
+
+.educa{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 190px;
+    width: 0;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 167px;
+    margin-left: calc(100% - 84%);
+    color: rgb(0, 0, 0);
+}
+
+.educa ::selection {
+   color: #ff0000;
+   background-color: none;
+}
+.bau {
+   color: rgb(0, 195, 255);
+}
+
+.buscar-box {
+    width: 0;
+    height: 0;
+    size: 0;
+}
