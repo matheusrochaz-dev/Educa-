@@ -45,3 +45,4 @@ function resetSearch() {
         item.classList.remove("hidden");  // Remove a classe 'hidden' para todos os itens
     });
 }
+
